@@ -3,13 +3,26 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
+    line-height: 30px;
 }
 
 header{
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #quote{
     color : white;
     font-size: 1.5em;
+    font-style: italic;
+}
+
+#content{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+ol{
+    text-align: left;
 }
