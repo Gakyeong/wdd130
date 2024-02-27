@@ -118,6 +118,10 @@ h2{
     justify-self: center;
     align-self: center;
 }
+.logo{
+    width:150px;
+    height: 100px;
+}
 .rivers-card{
     margin: 200px 0;
     grid-column: 2/4;
@@ -149,6 +153,7 @@ main section img {
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 #hero {
     display: grid;
@@ -165,6 +170,9 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+#hero-img{
+    width: 100%;
 }
 .home-grid{
     display: grid;
