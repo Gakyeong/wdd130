@@ -18,7 +18,7 @@ nav {
 }
 nav a:hover {
     background-color: white;
-    color:grey;
+    color:rgb(79, 76, 76);
 }
 nav a{
     text-align: center;
@@ -81,6 +81,7 @@ footer{
 #home-title img{
     display: block;
     margin: 0 auto;
+    padding:50px;
 }
 #home-title h2{
     text-align: center;
@@ -103,13 +104,13 @@ footer{
     grid-row: 1/2;
 }
 
-#icon{
+.icon{
     border: 10px solid #FF9105;
-    width: 100%;
+    width: 50%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-#icon:hover {
+.icon:hover {
     opacity: .6;
     transform: scale(1.1);
 }
@@ -144,6 +145,7 @@ footer{
 .introduction p{
     text-align: center;    
     padding: 0 100px;
-    grid-column: 2/4;
-    
+    grid-column: 2/4; 
 }
+
+/* second page*/
